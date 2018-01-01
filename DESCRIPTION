@@ -1,11 +1,19 @@
 Package: farsdata
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Helper Functions for viewing FARS data
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Dan Languedoc <dan.languedoc@gmail.com>
+Maintainer: Dan Languedoc <dan.languedoc@gmail.com>
+Description: Provides functions used to analyse the US National Highway Traffic Safety Administration's
+    Fatality Analysis Reporting System. https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars 
+License: GPL-3 
 Encoding: UTF-8
 LazyData: true
+Imports: dplyr,
+         maps,
+         readr,
+         tidyr
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
