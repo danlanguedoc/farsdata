@@ -26,6 +26,6 @@ The function ettempts to explicitly convert the year param to
 }
 \examples{
 make_filename("2013")
-make_filename("2013a")  returns "accident_NA.csv.bz2"
+make_filename("2013a")
 
 }
