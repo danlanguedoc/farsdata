@@ -12,7 +12,8 @@ LazyData: true
 Imports: dplyr,
          maps,
          readr,
-         tidyr
+         tidyr,
+         magrittr
 Suggests: knitr,
     rmarkdown
 VignetteBuilder: knitr

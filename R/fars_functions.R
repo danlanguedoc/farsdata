@@ -17,7 +17,9 @@
 #'
 #'
 #' @examples
+#' \dontrun{
 #' fars_read("accident_2013.csv.bz2")
+#' }
 #'
 #' @importFrom readr read_csv
 #' @importFrom dplyr tbl_df
@@ -49,8 +51,10 @@ fars_read <- function(filename) {
 #'
 #'    #'
 #' @examples
+#' \dontrun{
 #' make_filename("2013")
 #' make_filename("2013a")
+#' }
 #'
 #' @export
 make_filename <- function(year) {
@@ -75,10 +79,13 @@ make_filename <- function(year) {
 #'     a computed "year" column based on the current element of the "years" param
 #'
 #' @examples
+#' \dontrun{
 #' fars_read_years(c("2013","2014","2015"))
 #' fars_read_years(c(2013,2014))
+#' }
 #'
 #' @importFrom dplyr mutate select
+#' @importFrom  magrittr %>%
 #'
 #' @export
 fars_read_years <- function(years) {
@@ -114,8 +121,10 @@ fars_read_years <- function(years) {
 #'     exist for any particular row
 #'
 #' @examples
+#' \dontrun{
 #' fars_summarize_years(c("2013","2014","2015"))
 #' fars_summarize_years(c(2013,2014))
+#' }
 #'
 #' @importFrom dplyr bind_rows group_by summarize
 #' @importFrom tidyr spread
@@ -151,8 +160,10 @@ fars_summarize_years <- function(years) {
 #'
 #'
 #' @examples
+#' \dontrun{
 #' fars_map_state(1,2013)
 #' fars_map_state(5,2014)
+#' }
 #'
 #' @importFrom dplyr filter
 #' @importFrom maps map

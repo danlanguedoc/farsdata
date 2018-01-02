@@ -14,7 +14,8 @@ knitr::opts_chunk$set(
 
 # farsdata
 
-The goal of farsdata is to ...
+Provides functions used to analyse the US National Highway Traffic Safety Administration's
+Fatality Analysis Reporting System. https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars 
 
 ## Installation
 
@@ -25,10 +26,4 @@ You can install farsdata from github with:
 devtools::install_github("danlanguedoc/farsdata")
 ```
 
-## Example
 
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
-## basic example code
-```

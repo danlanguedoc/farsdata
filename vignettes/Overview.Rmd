@@ -16,6 +16,8 @@ knitr::opts_chunk$set(
 )
 ```
 
+
+
 This vignette provides an overview of the farsdata package.  This package consists of 3 main
  and 2 helper functions designed to make using the Fatality Analysis Reporting System 
  a little easier
@@ -34,13 +36,15 @@ returned as a summarized list with one dataframe per input year.  Invalid years 
 value will return NA as that list element
 
 ```{r eval = FALSE}
-data <- fars_read(c(2013,2014))
+setwd(system.file("extdata", package = "farsdata"))
+data <- fars_read_years(c(2013,2014))
 ```
 
 "fars_summarize_years()"  takes a vector of the years to query and returns a dataframe 
 consisting of summarized monthly data by year
 
 ```{r eval = FALSE}
+setwd(system.file("extdata", package = "farsdata"))
 data <- fars_summarize_years(2013:2015)
 ```
 
@@ -48,6 +52,7 @@ data <- fars_summarize_years(2013:2015)
 The index must map to an index in the dataset
 
 ```{r eval = FALSE}
+setwd(system.file("extdata", package = "farsdata"))
 data <- fars_map_state(5,2014)
 ```
 
