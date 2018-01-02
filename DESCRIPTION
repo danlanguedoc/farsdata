@@ -4,8 +4,8 @@ Title: Helper Functions for viewing FARS data
 Version: 0.1.0
 Author: Dan Languedoc <dan.languedoc@gmail.com>
 Maintainer: Dan Languedoc <dan.languedoc@gmail.com>
-Description: Provides functions used to analyse the US National Highway Traffic Safety Administration's
-    Fatality Analysis Reporting System. https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars 
+Description: This package provides functions used to analyse the US National Highway Traffic Safety Administration's
+    Fatality Analysis Reporting System. 
 License: GPL-3 
 Encoding: UTF-8
 LazyData: true

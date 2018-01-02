@@ -29,7 +29,9 @@ The function plots a data point for each fatality in the dataset for the particu
     It will also return a message if there are no value
 }
 \examples{
+\dontrun{
 fars_map_state(1,2013)
 fars_map_state(5,2014)
+}
 
 }

@@ -25,7 +25,9 @@ The function ettempts to explicitly convert the year param to
    #'
 }
 \examples{
+\dontrun{
 make_filename("2013")
 make_filename("2013a")
+}
 
 }

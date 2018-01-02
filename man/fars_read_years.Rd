@@ -24,7 +24,9 @@ The function loops over all the elements of the "years" and extracts a data fram
     a computed "year" column based on the current element of the "years" param
 }
 \examples{
+\dontrun{
 fars_read_years(c("2013","2014","2015"))
 fars_read_years(c(2013,2014))
+}
 
 }

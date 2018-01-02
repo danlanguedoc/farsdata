@@ -25,6 +25,8 @@ The function uses read_csv to import the data and then converts it to a datafram
     stops processing if the file does not exist at the path
 }
 \examples{
+\dontrun{
 fars_read("accident_2013.csv.bz2")
+}
 
 }

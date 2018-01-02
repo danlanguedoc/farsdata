@@ -26,7 +26,9 @@ The function binds all the rows returned in the yearly dataframes by
     exist for any particular row
 }
 \examples{
+\dontrun{
 fars_summarize_years(c("2013","2014","2015"))
 fars_summarize_years(c(2013,2014))
+}
 
 }
